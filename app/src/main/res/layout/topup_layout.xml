@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="39dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_backtopup"
+        android:layout_width="300dp"
+        android:layout_height="99dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="20dp"
+        android:text="←    Top Up"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <ImageView
+        android:id="@+id/tangan_duit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_backtopup"
+        android:paddingLeft="30dp"
+        android:paddingTop="46dp"
+        android:src="@drawable/tangan_duit"
+
+
+        />
+
+    <LinearLayout
+        android:paddingTop="60dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/linear_tulisan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_backtopup"
+        android:layout_toRightOf="@id/tangan_duit"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top up your"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="balance here!"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+
+            />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_kotak"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@id/linear_tulisan"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/all_rounded"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_kotak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingTop="40dp"
+                android:text="Top up"
+                android:textColor="@color/laddu_orange"
+                android:textSize="30sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="40dp"
+                android:text="amount"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear_kotak2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/linear_kotak"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingTop="40dp">
+
+            <EditText
+
+                android:id="@+id/input_saldo"
+                android:layout_width="283dp"
+                android:layout_height="55dp"
+                android:layout_below="@id/linear_kotak"
+                android:background="@drawable/rounded_corner_white"
+                android:backgroundTint="@color/white"
+                android:hint="Min Rp5.000"
+                android:paddingLeft="30dp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/rounded_corner_white"
+                android:backgroundTint="@color/laddu_orange"
+                android:text="Send"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="25dp"
+                android:layout_toLeftOf="@id/btn_send"
+                android:background="@drawable/rounded_corner_white"
+                android:backgroundTint="@color/white"
+                android:text="Cancle" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
