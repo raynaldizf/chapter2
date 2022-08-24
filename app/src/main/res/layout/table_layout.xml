@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Text Satu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+        </TextView>
+        <TextView
+            android:layout_weight="1"
+            android:text="Text Dua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+        </TextView>
+        <TextView
+            android:layout_weight="1"
+            android:text="Text Tiga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+        </TextView>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Text Satu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+        </TextView>
+        <TextView
+            android:layout_weight="1"
+            android:text="Text Dua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+        </TextView>
+        <TextView
+            android:layout_weight="1"
+            android:text="Text Tiga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+        </TextView>
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Text Satu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+        </TextView>
+        <TextView
+            android:layout_weight="1"
+            android:text="Text Dua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+        </TextView>
+        <TextView
+            android:layout_weight="1"
+            android:text="Text Tiga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+        </TextView>
+
+    </TableRow>
+</TableLayout>

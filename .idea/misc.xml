@@ -6,16 +6,23 @@
         <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2125" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/drawable/all_rounded.xml" value="0.1525" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2125" />
+        <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/drawable/rounded_circle_vaksin.xml" value="0.1525" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/drawable/rounded_corner.xml" value="0.1" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/drawable/rounded_corner_white.xml" value="0.1525" />
+        <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/drawable/rounded_vaksin.xml" value="0.1525" />
+        <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/drawable/shape_circle.xml" value="0.1525" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/layout/activity_main.xml" value="0.2931633835457706" />
+        <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/layout/activity_vaksin_dan_imunisasi.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/layout/constraint_layout.xml" value="0.2076923076923077" />
+        <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/layout/frame_layout.xml" value="0.18984375" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/layout/latihan_2.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/layout/linear_horizontal.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/layout/quiz_linear_layout.xml" value="0.253125" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/layout/quiz_relative_layout.xml" value="0.253125" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/layout/relative_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/layout/table_layout.xml" value="0.253125" />
         <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/layout/topup_layout.xml" value="0.264" />
-        <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/layout/vaksin_dan_imunisasi.xml" value="0.253125" />
+        <entry key="..\:/Users/killo/AndroidStudioProjects/topic42/app/src/main/res/layout/vaksin_dan_imunisasi.xml" value="0.264" />
       </map>
     </option>
   </component>

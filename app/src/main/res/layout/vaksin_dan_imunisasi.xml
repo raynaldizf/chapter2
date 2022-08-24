@@ -1,6 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/white"
+        app:title="@string/toolbar_vaksin"
+        app:titleTextColor="@color/black"
+
+
+
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginBottom="270dp"
+
+        android:background="@drawable/rounded_vaksin">
+
+
+        <ImageView
+            android:id="@+id/vaksin_covid_gambar"
+            android:layout_width="70dp"
+            android:layout_height="131dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/virus" />
+
+        <TextView
+            android:id="@+id/text_h4_vaksin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/vaksin_covid_gambar"
+            android:paddingLeft="19dp"
+            android:text="Vaksin COVID-19"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_content_vaksin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_h4_vaksin"
+            android:layout_marginLeft="137dp"
+
+            android:text="Cek sertifikat vaksin Anda di sini"
+
+            />
+
+        <ImageView
+            android:id="@+id/verifikator_gambar"
+            android:layout_width="70dp"
+            android:layout_height="131dp"
+
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="125dp"
+            android:src="@drawable/scan"
+
+
+            />
+
+        <TextView
+            android:id="@+id/text_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="164dp"
+            android:layout_toRightOf="@id/verifikator_gambar"
+            android:paddingLeft="20dp"
+            android:text="Verifikator Check-In"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/content_verifikator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="137dp"
+            android:layout_marginTop="192dp"
+            android:text="Verifikasi sertifikat vaksin format EU"
+
+
+            />
+
+        <ImageView
+            android:id="@+id/imunisasi_anak_gambar"
+            android:layout_width="70dp"
+            android:layout_height="131dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="230dp"
+            android:src="@drawable/imunisasi"
+
+            />
+
+        <TextView
+            android:id="@+id/subheader_imunisasi_anak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="270dp"
+            android:text="Imunisasi Anak"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/content_imunisasi_anak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subheader_imunisasi_anak"
+            android:layout_marginLeft="137dp"
+            android:text="Cek riwayat imunisasi anak di sini"
+
+            />
+
+        <ImageView
+            android:id="@+id/shape_circle"
+            android:layout_width="15dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="268dp"
+
+
+
+            android:src="@drawable/shape_circle" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
